@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5",                          /* ビルドによって生成されたJavascriptが実行環境に適切な出力になるようにtarget/moduleを変更する */
+    "module": "commonjs",                     /* 例えば、target を es2015 に、 module を amd にすると変換出力結果が変わる。つまり、ビルドされるtest.jsファイルの内容が変わる */
+    
+    /* Strict Type-Checking Options */
+    "strict": true,                           /* Enable all strict type-checking options. */
+
+    /* Additional Checks */
+
+    /* Module Resolution Options */
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+
+    /* Source Map Options */
+    
+    /* Experimental Options */
+    
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
+  }
+}
